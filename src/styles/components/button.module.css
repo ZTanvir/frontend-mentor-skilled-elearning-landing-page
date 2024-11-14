@@ -1,0 +1,6 @@
+.btnContainer{
+    padding:0.75rem 1.5rem;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    border: none;
+}
