@@ -1,9 +1,11 @@
 import "./App.css";
 import Button from "./components/Button";
+import NavBar from "./components/Navbar";
 
 function App() {
   return (
     <>
+      <NavBar theme="light" />
       <Button
         text="get started"
         bgColor="#13183F"
