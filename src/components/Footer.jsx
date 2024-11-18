@@ -1,25 +1,26 @@
 import Button from "./Button";
 import styles from "../styles/components/navbar.module.css";
-import logoDark from "../assets/logo-dark.svg";
+import logoLight from "../assets/logo-light.svg";
 
-const NavBar = ({}) => {
+const Footer = () => {
   return (
     <ul className={styles.navBarContent}>
       <li>
         <img
-          src={logoDark}
+          src={logoLight}
           alt="Logo of the website.In the logo the text skilled is written."
         />
       </li>
       <li>
         <Button
           text="get started"
-          bgColor="#13183F"
+          bgColor="linear-gradient(#4851FF, #F02AA6)"
           color="white"
-          hoverColor="#666CA3"
+          hoverColor="linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%)"
         />
       </li>
     </ul>
   );
 };
-export default NavBar;
+
+export default Footer;

@@ -1,11 +1,13 @@
 import "./App.css";
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import NavBar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <NavBar theme="light" />
+      <NavBar />
+      <Footer />
       <Button
         text="get started"
         bgColor="#13183F"
