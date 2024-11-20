@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import HeroSection from "./HeroSection";
 import ServiceCards from "../../components/ServiceCards";
+import styles from "../../styles/page/homepage.module.css";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
         <Navbar />
       </nav>
       <main>
-        <section>
+        <section className={styles.heroSection}>
           <HeroSection />
         </section>
         <section>
