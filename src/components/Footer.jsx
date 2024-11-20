@@ -4,7 +4,7 @@ import logoLight from "../assets/logo-light.svg";
 
 const Footer = () => {
   return (
-    <ul className={styles.navBarContent}>
+    <ul className={`${styles.navBarContent} ${styles.footerContainer}`}>
       <li>
         <img
           src={logoLight}

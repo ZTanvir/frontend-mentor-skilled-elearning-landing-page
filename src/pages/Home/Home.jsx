@@ -14,7 +14,7 @@ const Home = () => {
         <section className={styles.heroSection}>
           <HeroSection />
         </section>
-        <section>
+        <section className={styles.cardSections}>
           <ServiceCards />
         </section>
       </main>
