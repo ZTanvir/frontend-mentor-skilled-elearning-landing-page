@@ -1,0 +1,7 @@
+.popularCourseCard{
+    padding: 2rem 1rem 1rem 1rem;
+    background:linear-gradient(#FF6F48, #F02AA6);
+    color: white;
+    max-width: 400px;
+    border-radius: 1rem;
+}
