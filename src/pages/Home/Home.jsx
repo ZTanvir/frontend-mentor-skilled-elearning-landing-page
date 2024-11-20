@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import HeroSection from "./HeroSection";
-import ServiceCard from "../../components/ServiceCard";
+import ServiceCards from "../../components/ServiceCards";
 import photography from "../../assets/icon-photography.svg";
 
 const Home = () => {
@@ -9,13 +9,7 @@ const Home = () => {
     <>
       <Navbar />
       <HeroSection />
-      <ServiceCard
-        imgSrc={photography}
-        title={"Animation"}
-        descriptions={
-          "Learn the latest animation techniques to create stunning motion design and captivate your audience."
-        }
-      />
+      <ServiceCards />
       <Footer />
     </>
   );
