@@ -10,3 +10,7 @@
 .footerContainer{
   background-color:#13183F ;
 }
+:is(.navBarContent,.footerContainer){
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -7,7 +7,7 @@ import styles from "../../styles/page/homepage.module.css";
 const Home = () => {
   return (
     <>
-      <nav>
+      <nav className={styles.navBar}>
         <Navbar />
       </nav>
       <main>
@@ -18,7 +18,7 @@ const Home = () => {
           <ServiceCards />
         </section>
       </main>
-      <footer>
+      <footer className={styles.footerBar}>
         <Footer />
       </footer>
     </>
