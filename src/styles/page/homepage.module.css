@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid red;
 }
 .cardSections{
     display: grid;
@@ -16,4 +15,13 @@
 
 .footerBar{
     background-color:#13183F;
+}
+.mainSection{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+@media only screen and (min-width:1025px){
+    .heroSection{
+        height: 500px;
+    }
 }

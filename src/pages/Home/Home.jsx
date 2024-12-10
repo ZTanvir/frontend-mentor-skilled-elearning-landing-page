@@ -10,7 +10,7 @@ const Home = () => {
       <nav className={styles.navBar}>
         <Navbar />
       </nav>
-      <main>
+      <main className={styles.mainSection}>
         <section className={styles.heroSection}>
           <HeroSection />
         </section>

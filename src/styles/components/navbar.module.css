@@ -11,6 +11,6 @@
   background-color:#13183F ;
 }
 :is(.navBarContent,.footerContainer){
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
