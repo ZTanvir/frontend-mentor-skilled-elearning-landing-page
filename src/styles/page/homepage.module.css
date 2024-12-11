@@ -1,6 +1,6 @@
 .heroSection{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
 }
 .cardSections{
@@ -22,6 +22,5 @@
 }
 @media only screen and (min-width:1025px){
     .heroSection{
-        height: 500px;
     }
 }

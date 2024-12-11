@@ -1,5 +1,6 @@
 import Button from "../../components/Button";
 import desktopHero from "../../assets/image-hero-desktop.png";
+import desktopHeroLg from "../../assets/image-hero-desktop@2x.png";
 import tabletHero from "../../assets/image-hero-tablet.png";
 import mobileHero from "../../assets/image-hero-mobile.png";
 import styles from "../../styles/components/heroSection.module.css";
@@ -8,8 +9,8 @@ const HeroSection = () => {
   return (
     <>
       <section className={styles.heroSectionContainer}>
-        <h2>Maximize skill, minimize budget</h2>
-        <p>
+        <h2 className={styles.title}>Maximize skill, minimize budget</h2>
+        <p className={styles.descriptions}>
           Our modern courses across a range of in-demand skills will give you
           the knowledge you need to live the life you want.
         </p>
@@ -21,7 +22,7 @@ const HeroSection = () => {
         />
       </section>
       <picture className={styles.heroImage}>
-        <source media="(min-width:1025px )" srcSet={desktopHero} />
+        <source media="(min-width:1025px )" srcSet={desktopHeroLg} />
         <source media="(min-width:600px )" srcSet={tabletHero} />
         <img src={mobileHero} alt="" srcSet="" />
       </picture>
