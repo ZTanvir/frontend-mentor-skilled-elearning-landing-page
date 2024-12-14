@@ -1,26 +1,29 @@
-.heroSection{
+.heroSection {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
-.cardSections{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    row-gap: 3rem;
-    column-gap: 1rem;
+
+.cardSections {
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
 }
-.navBar{
+
+.navBar {
     background-color: #FFFFFF;
 }
 
-.footerBar{
-    background-color:#13183F;
+.footerBar {
+    background-color: #13183F;
 }
-.mainSection{
+:is(.heroSection){
     max-width: 1100px;
     margin: 0 auto;
 }
-@media only screen and (min-width:1025px){
-    .heroSection{
-    }
+/* .mainSection {
+    max-width: 1100px;
+    margin: 0 auto;
+} */
+
+@media only screen and (min-width:1025px) {
+    .heroSection {}
 }

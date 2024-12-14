@@ -1,7 +1,21 @@
+.cardContainers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+    column-gap: 1rem;
+    padding-bottom: 4rem;
+ 
+}
 .popularCourseCard{
     padding: 2rem 1rem 1rem 1rem;
     background:linear-gradient(#FF6F48, #F02AA6);
     color: white;
     max-width: 400px;
     border-radius: 1rem;
+    font-size: 32px;
+}
+
+:is(.cardContainers){
+    max-width: 1100px;
+    margin: 0 auto;
 }

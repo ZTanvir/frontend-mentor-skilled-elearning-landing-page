@@ -3,7 +3,7 @@ import cardsData from "../data/cardsData";
 import styles from "../styles/components/serviceCards.module.css";
 const ServiceCards = () => {
   return (
-    <>
+    <section className={styles.cardContainers}>
       <section className={styles.popularCourseCard}>
         <p>Check out our most popular courses!</p>
       </section>
@@ -16,7 +16,7 @@ const ServiceCards = () => {
           url={card.url}
         />
       ))}
-    </>
+    </section>
   );
 };
 export default ServiceCards;
