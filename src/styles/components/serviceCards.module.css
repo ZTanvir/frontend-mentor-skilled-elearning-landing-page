@@ -1,21 +1,19 @@
-.cardContainers{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 3rem;
-    column-gap: 1rem;
-    padding-bottom: 4rem;
- 
+.cardContainers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  column-gap: 1rem;
+  padding-bottom: 4rem;
 }
-.popularCourseCard{
-    padding: 2rem 1rem 1rem 1rem;
-    background:linear-gradient(#FF6F48, #F02AA6);
-    color: white;
-    max-width: 400px;
-    border-radius: 1rem;
-    font-size: 32px;
+.popularCourseCard {
+  composes: card from "./servicecard.module.css";
+  background: linear-gradient(#ff6f48, #f02aa6);
+  color: white;
+  border-radius: 1rem;
+  font-size: 32px;
 }
 
-:is(.cardContainers){
-    max-width: 1100px;
-    margin: 0 auto;
+:is(.cardContainers) {
+  max-width: 1100px;
+  margin: 0 auto;
 }
