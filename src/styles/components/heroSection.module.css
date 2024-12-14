@@ -1,22 +1,19 @@
-
-.heroSectionContainer{
+.heroSectionContainer {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 1rem;
-
 }
 
-.title{
+.title {
   font-size: 56px;
   font-weight: bolder;
 }
-.descriptions{
+.descriptions {
   font-size: 18px;
-  font-weight:400;
+  font-weight: 400;
   opacity: 0.6;
 }
-
 
 @media only screen and (min-width: 1025px) {
   .heroImage {
@@ -25,8 +22,7 @@
     bottom: 100px;
   }
 }
-@media only screen and (min-width:600px){
-  .heroImage{
-
+@media only screen and (min-width: 600px) {
+  .heroImage {
   }
 }
