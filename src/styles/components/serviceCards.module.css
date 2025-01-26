@@ -23,3 +23,10 @@
     padding: 0rem 2.5rem 2rem 2.5rem;
   }
 }
+@media only screen and (min-width: 320px) {
+  .cardContainers {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    grid-template-columns: 1fr;
+  }
+}
