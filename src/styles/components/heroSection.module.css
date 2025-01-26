@@ -26,4 +26,13 @@
   .heroSectionContainer {
     padding-left: 2.5rem;
   }
+  .heroImage {
+    position: relative;
+    left: 124px;
+    bottom: 70px;
+  }
+  .title {
+    font-size: 40px;
+    font-weight: bolder;
+  }
 }
