@@ -17,3 +17,8 @@
   max-width: 1100px;
   margin: 0 auto;
 }
+@media only screen and (min-width: 600px) {
+  .cardContainers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
